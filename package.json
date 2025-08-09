@@ -1,0 +1,24 @@
+{
+  "name": "money-moves-prebank",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "brand:scrape": "node scripts/brand-extract.mjs https://3rd-eyes.com",
+    "brand:inject": "node scripts/inject-brand.mjs",
+    "pwa:sw": "workbox generateSW workbox-config.js"
+  },
+  "dependencies": {
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "workbox-build": "^7.0.0",
+    "puppeteer": "^23.6.0"
+  }
+}
