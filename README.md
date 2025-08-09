@@ -1,3 +1,4 @@
+live test
 # Money Moves — Pre-Bank (3rd-eyes)
 Shareable, mobile-first app (DE/FR/EN) with planners, climate scores (A–F), duet goals, events (email+SMS), and soft nudges.
 ## Local
